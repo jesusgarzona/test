@@ -1,0 +1,20 @@
+// codigo que suma los digitos de un codigo estudiante
+#include<iostream>
+using namespace std;
+int main()
+{
+  int n;
+  cout <<"Ingrese código de estudiante";
+  cin>>n;
+
+  int suma=0;
+  while(n>0)
+  {
+  suma= suma + n%10;
+  n=n/10;
+  }
+  cout << "/n/nla suma de mi codigo de estudiante es:"<< suma  <<endl;
+  
+  return 0;
+
+  }
